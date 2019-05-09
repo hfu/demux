@@ -3,8 +3,8 @@
   certPath: /etc/letsencrypt/live/vectortiles.xyz-0001/fullchain.pem 
   keyPath: /etc/letsencrypt/live/vectortiles.xyz-0001/privkey.pem
   router: {
-    vectortiles.xyz: https://vectortiles.xyz:8443,
-    al.vectortiles.xyz': https://vectortiles.xyz:8877
+    vectortiles.xyz: https://vectortiles.xyz:8443
+    al.vectortiles.xyz: https://vectortiles.xyz:8877
   }
 }
 

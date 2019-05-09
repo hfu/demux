@@ -15,10 +15,7 @@ app.use(cors())
 
 app.use('/', proxy({
   target: 'https://localhost:8443',
-  router: {
-    'vectortiles.xyz': 'https://vectortiles.xyz:8443',
-    'al.vectortiles.xyz': 'https://vectortiles.xyz:8877'
-  },
+  router: router,
   changeOrigin: true
 }))
 
